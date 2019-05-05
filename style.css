@@ -1,0 +1,269 @@
+
+body {
+    background-color: #ffffff;
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(92, 12, 38, 0.699),rgba(61, 10, 73, 0.521)), url(imagenes/fondo-cabecera.jpg) left no-repeat;
+    background-size: cover;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+header .logo {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Patua One', cursive;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 19px;
+    
+}
+
+nav ul li {
+    margin-right: 23px;
+    list-style: none;
+    color: #ffffff;
+}
+
+.container-title {
+    display: flex;
+    justify-content: center;
+    margin: 18vh 0;
+
+}
+
+.container-title h1 {
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.container-title h2 {
+    font-size: 25px;
+    color: #ffffff;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.container-title a {
+    width: 128px;
+    display: inline-block;
+    justify-content: center;
+    background-color: rgb(56, 161, 144);
+    font-size: 14px;
+    color: #ffffff;
+    padding: 14px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.container-title .title {
+    text-align: center;
+}
+
+#about h3{
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+
+}
+
+#about img {
+    width: 378px;
+    margin-top: 40px;
+}
+
+#about .content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#about .about-text {
+    width: 42%;
+}
+
+#about a {
+    background-color: rgb(56, 161, 144);
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 12px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 0;
+    width: 179px;
+    text-align: center;
+    border-radius: 5px;
+} 
+
+#services h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.service-ux {
+    background-image: linear-gradient(to top, #581e2c, rgba(145, 74, 127, 0.842)), url(/imagenes/fondo-cabecera.jpg); 
+    box-shadow: 0 12px 30px 0 rgb(65, 5, 60);
+}
+
+.service-responsive {
+    background-image: linear-gradient(to top, #643959, #916185d8), url(/imagenes/fondo-cabecera.jpg);
+    box-shadow: 0 12px 30px 0 rgb(92, 16, 116);
+}
+
+.service-analisis {
+    background-image: linear-gradient(to top, #581e2c, rgba(145, 74, 127, 0.842)), url(/imagenes/fondo-cabecera.jpg); 
+    box-shadow: 0 12px 30px 0 rgb(65, 5, 60);
+}
+
+.container-services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #ffffff;
+}
+
+.container-services .service-ux {
+    padding: 34px 30px 38px 30px;
+    border-radius: 10px;
+    height: 40%;
+    width: 24%;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.container-services .service-responsive {
+    padding: 34px 30px 38px 30px;
+    border-radius: 10px;
+    height: 40%;
+    width: 24%;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.container-services .service-analisis {
+    padding: 34px 30px 38px 30px;
+    border-radius: 10px;
+    height: 40%;
+    width: 24%;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.container-services h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.container-services p {
+    opacity: .8;
+    margin-bottom: 5px;
+    height: 260px;
+}
+
+.container-services i {
+    float: right;
+}
+
+.container-works {
+    display: flex;
+    flex-direction: row
+}
+
+#works h3 {
+    font-size: 55px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#works img {
+    transform: scale(0.9);
+    transition: .3s;
+    width: 300px;
+
+}
+
+#works img:hover {
+    transform: scale(1);
+    transition: .3s;
+}
+
+#works {
+    text-align: center;
+
+}
+
+.owl-nav button {
+    color: #581e2c !important;
+    margin: 0 46px !important;
+    font-size: 59px !important;
+}
+
+.owl-dots {
+    visibility: none;
+}
+
+.owl-nav button:hover {
+    background: none !important;
+}
+
+#work-with-me h3 {
+    font-size: 55px;
+    text-align: center;
+    font-weight: normal;
+}
+
+#work-with-me .container-work {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#work-with-me i {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#work-with-me .item {
+    width: 28%;
+    text-align: center;
+}
+
+#work-with-me ul li {
+    list-style: none;
+}
+
+#work-with-me ul li:nth-child(2) {
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#work-with-me ul li:nth-child(3) {
+    line-height: 31px;
+}
+
+
